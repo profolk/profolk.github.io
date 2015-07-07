@@ -1,5 +1,26 @@
 ---
 layout: default
 ---
+<article>
+  We only work with clients who are not afraid of paradigm shifts. We're not talking a re-branding, but an overhaul of culture and willing to invest in actual change. We're combining anthropology and design for clients who are wishing to honestly be themselves. And see money as a means for change.
+  
+  
+</article>
+ {% for post in site.posts %}
+    <article class="post">
 
-Hello there
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+
+{% for post in site.posts %}
+    {% if post.tag contains 'home' %}
+        {{page.content}}
+    {% endif%}
+{% endfor %}

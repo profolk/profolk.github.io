@@ -2,8 +2,8 @@
 title: Title here
 email: Email here
 description: Site description here.
-baseurl: "/benjaminkinzerxxx" # the subpath of your site, e.g. /blog/
-url: "http://benjaminkinzer.xxx" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
 twitter_username: username
 google_analytics: UA-XXXXX-X
   

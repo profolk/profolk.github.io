@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "Welcome to Provoke"
+date:   2015-03-13 13:54:10
+categories: beginnings design wireframes home
+---
+We at Provoke are interested in approaching old techniques in new ways. Hello, my name is Benjamin Kinzer and I figured since this is our very first website that we should reveal our process. This will help us understand how we in the future will work on web projects and gives you a chance to see if you could use it too in your daily projects. 
+
+Two topics we will be discussing for now is Desiging in the Browser and Iterative Design. This will give us a change to map out our goals for this site and focus on the content needed. I leanred this technique from Ben Darlowe. I'm making a few adjustments of my own, so that I may adapt it to my workflow. Workflow is adapted from what I learned from Meg. She is big on Agile Project Management and I think it could be useful skill set for designers and not just developers. Although, we are blurring the lines between design and development. However, I still think it's necessary to have two front-end developers and a back-end developer. 
+
+Since this is a our own site this provides me with the opportunity to understand what developers are up against and to clean up my skills in front-end development. I'm hoping this will help a few other designers out there and they can learn from my mistakes. 
+
+Here's a little insight to our project scope. 
+
+Provoke is a humanist design firm that will be applying for B Corporation status. We will be a fully transparent and responsible firm and also ensure that our clients are also performing to the standards we find valuable for future generations. We are for profit, but in a way that is sustainable for future generations, friendly to the environment, focus on human priniciples. We will be transparent about our financials and will operate on the model of a collective where everyone is equal and paid equally. You maybe a teamn leader, but you will probably also be taking out the trash essentially. 
+
+Right now we have scoped out three areas of content
+* Case Studies
+* Journal
+* Press
+* About
+* Contact
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+
+[jekyll]:      http://jekyllrb.com
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-help]: https://github.com/jekyll/jekyll-help
